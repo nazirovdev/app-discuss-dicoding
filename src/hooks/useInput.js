@@ -11,5 +11,5 @@ export default function useInput(defaultValue) {
     setState('');
   };
 
-  // return [state, onHandleChangeInput, onHandleReset];
+  return [state, onHandleChangeInput, onHandleReset];
 }
