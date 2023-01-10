@@ -21,7 +21,7 @@ export default function FormLogin({ onLogin }) {
         <input className="p-1 rounded-md ring-2 focus:outline-none" placeholder="Email" value={email} onChange={setEmail} />
         <input className="p-1 rounded-md ring-2 focus:outline-none" placeholder="Password" type="password" value={password} onChange={setPassword} />
       </form>
-      <Button type="blue" onClick={onLoginHandle}>
+      <Button type="green" onClick={onLoginHandle}>
         Masuk
       </Button>
     </div>
